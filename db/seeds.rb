@@ -3,7 +3,7 @@ user = User.first
 User.create!(email: DEFAULT_VALUES['ADMIN_EMAIL'], password: DEFAULT_VALUES['ADMIN_PASSWORD']) if user.nil?
 
 # stub Project
-project = Project.current
+project = Project.first
 
 if project.nil?
   Project.create!(
