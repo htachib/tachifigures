@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  include Reviews
   before_action :authenticate_user!, only: [:logout]
 
   def logout
