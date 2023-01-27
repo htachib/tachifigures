@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'pages#home'
   # root 'posts#index'
+  get '/test', to: 'pages#test'
 
   resources :dashboard, only: [:index]
   resources :posts
