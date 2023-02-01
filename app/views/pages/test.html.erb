@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+
+<% @seo_meta = {
+  title: 'TachiFigures',
+  image: 'avatar.png',
+  description: "Spreadsheets as a service."
+} %>
+
+<div class="antialiased connect-font connect-bg connect-text">
 <html lang="en">
 <head>
     <title>Page title</title>
@@ -14,13 +23,13 @@
 <body class="antialiased bg-body text-body font-body">
     <div class="">
 
-      <section class="relative pb-24">
+      <section id="landing" class="relative pb-24">
         <div class="absolute top-0 right-0 flex w-full h-3/4 md:h-2/3 bg-green-200">
           <img class="absolute bottom-0 left-0 right-0 w-full -mb-4" src="nigodo-assets/background/background-green-top.svg" alt="">
         </div>
         <nav class="flex mb-20 justify-between items-center py-6 px-10 relative">
           <a class="text-lg font-bold" href="#">
-            <img class="h-8" src="nigodo-assets/logo-nigodo.svg" alt="" width="auto">
+            <img class="h-8" src="images/tachifigures-color-logo.png" alt="" width="auto">
           </a>
           <div class="xl:hidden">
             <button class="navbar-burger focus:outline-none text-indigo-900 hover:text-indigo-800">
@@ -56,7 +65,7 @@
           <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-full md:w-5/6 max-w-sm py-8 px-8 bg-green-200 border-r overflow-y-auto">
             <div class="flex items-center mb-8">
               <a class="mr-auto text-2xl font-bold leading-none" href="#">
-                <img class="h-6" src="nigodo-assets/logo-nigodo.svg" alt="" width="auto">
+                <img class="h-6" src="images/tachifigures-color-logo.png" alt="" width="auto">
               </a>
               <button class="navbar-close">
                 <svg class="h-6 w-6 text-gray-500 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
@@ -79,7 +88,7 @@
         </div>
       </section>
 
-      <section class="py-26 md:py-48 min-h-screen md:min-h-0 bg-orange-200">
+      <section id="statement" class="py-26 md:py-48 min-h-screen md:min-h-0 bg-orange-200">
         <div class="container px-4 mx-auto">
           <div class="max-w-xl mx-auto text-center">
 
@@ -92,80 +101,7 @@
         </div>
       </section>
 
-      <section class="py-26 bg-white relative overflow-hidden"><img class="absolute top-0 left-0 w-1/2" src="nigodo-assets/background-elements/pattern-smash-dots-indigo-light-left.svg" alt=""><img class="absolute bottom-0 right-0 w-1/2" src="nigodo-assets/background-elements/pattern-smash-big-indigo-light-right.svg" alt=""><div class="container px-4 mx-auto relative">
-        <div class="text-center mb-14">
-
-          <h1 class="text-3xl md:text-4xl font-extrabold font-heading mt-4 mb-6" contenteditable="false">TachiFigures All Access Membership</h1>
-          <div class="flex items-center justify-center">
-
-
-
-          </div>
-        </div>
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
-            <div class="flex flex-col h-full bg-white border-3 border-indigo-900 rounded-2xl shadow-md">
-              <div class="flex flex-wrap justify-between items-center px-6 lg:px-12 py-12 border-b-3 border-indigo-900">
-                <div class="mb-4 w-full sm:w-1/2 sm:mb-0">
-                  <h2 class="text-2xl font-extrabold" contenteditable="false">Membership Details</h2>
-
-                </div>
-                <div class="flex w-full sm:w-auto items-start">
-
-
-
-                </div>
-              </div>
-              <div class="mb-auto py-12 px-6 lg:px-12">
-                <div class="flex mb-4 items-center">
-                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt=""><span class="text-lg font-extrabold" contenteditable="false">Add requests to our project pipeline.</span>
-                </div>
-                <div class="flex mb-4 items-center">
-                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt=""><span class="text-lg font-extrabold" contenteditable="false">We work with you on your deadlines.</span>
-                </div>
-                <div class="flex mb-4 items-center">
-                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt=""><span class="text-lg font-extrabold" contenteditable="false">One straightforward per month fixed cost.</span>
-                </div>
-                <div class="flex items-center">
-                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt=""><span class="text-lg font-extrabold" contenteditable="false">Pause anytime.</span>
-                </div>
-                <div class="flex items-center">
-
-                </div>
-                <div class="flex items-center pt-4">
-                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt=""><span class="text-lg font-extrabold" contenteditable="false">Completed documents are fully yours.</span>
-                </div>
-              </div>
-              <div class="py-10 px-6 lg:px-12 border-t-3 border-indigo-900"><a class="inline-block w-full py-4 px-6 text-center leading-6 text-lg text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 shadow rounded transition duration-200" href="#">Get Started</a></div>
-            </div>
-          </div>
-
-        </div>
-        </div>
-      </section>
-
-      <section class="bg-orange-200 relative overflow-hidden py-60">
-        <img class="absolute top-0 w-1/2 md:w-1/3 md:h-full" src="nigodo-assets/background-elements/pattern-smash-dots-orange-left.svg" alt="">
-        <img class="absolute top-0 right-0 w-1/2 md:w-1/3 md:h-full" src="nigodo-assets/background-elements/pattern-smash-dots-orange-right.svg" alt="">
-        <div class="container px-4 mx-auto relative">
-          <div class="text-center">
-
-            <h1 class="text-3xl md:text-4xl font-extrabold font-heading mt-3 mb-4">Get a taste</h1>
-
-          </div>
-          <div class="max-w-lg mx-auto">
-            <div class="flex flex-wrap -mx-2 justify-center">
-
-              <div class="w-full md:w-auto px-2 mb-2"><a class="inline-flex items-center justify-center w-full md:w-auto h-full py-4 px-5 text-center leading-6 text-lg text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 rounded transition duration-200" href="#">See Past Work</a></div>
-              <div class="w-full px-2">
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-26 bg-white">
+      <section id="features" class="py-26 bg-white">
         <div class="container px-4 mx-auto relative">
           <div class="max-w-5xl mx-auto mb-16 text-center">
             <span class="text-lg font-extrabold text-indigo-500">What's covered</span>
@@ -219,9 +155,30 @@
         </div>
       </section>
 
-      <section class="py-26 bg-orange-200">
+      <section id="past-work" class="bg-green-200 relative overflow-hidden py-60">
+        <img class="absolute top-0 w-1/2 md:w-1/3 md:h-full" src="nigodo-assets/background-elements/pattern-smash-dots-green-left.svg" alt="">
+        <img class="absolute top-0 right-0 w-1/2 md:w-1/3 md:h-full" src="nigodo-assets/background-elements/pattern-smash-dots-green-right.svg" alt="">
+        <div class="container px-4 mx-auto relative">
+          <div class="text-center">
+
+            <h1 class="text-3xl md:text-4xl font-extrabold font-heading mt-3 mb-4">Get a taste</h1>
+
+          </div>
+          <div class="max-w-lg mx-auto">
+            <div class="flex flex-wrap -mx-2 justify-center">
+
+              <div class="w-full md:w-auto px-2 mb-2"><a class="inline-flex items-center justify-center w-full md:w-auto h-full py-4 px-5 text-center leading-6 text-lg text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 rounded transition duration-200" href="#">See Past Work</a></div>
+              <div class="w-full px-2">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="py-26 bg-orange-200">
         <div class="container px-4 mx-auto text-center">
-          <span class="text-lg font-extrabold text-orange-500 text-center align-middle">Pricing</span>
+          <span class="text-lg font-extrabold text-orange-500 text-center align-middle">Membership Pricing</span>
           <h1 class="text-3xl md:text-4xl font-extrabold font-heading mt-4 mb-6 text-center">One plan, no commitments.</h1>
 
           <div class="flex flex-wrap -mx-4">
@@ -232,7 +189,7 @@
               <div class="max-w-md mx-auto px-6 py-12 md:p-12 bg-white border-3 border-indigo-900 rounded-2xl shadow-md">
                 <div class="text-center mb-12">
 
-                  <h2 class="text-2xl font-extrabold mb-6">TachiFigures All Access</h2>
+                  <h2 class="text-2xl font-extrabold mb-6">TachiFigures All Access Membership</h2>
                   <div class="flex justify-center items-start mb-2">
                     <span class="pr-1 text-lg font-extrabold">$</span>
                     <span class="text-3xl md:text-4xl font-extrabold">4,950/mth</span>
@@ -241,15 +198,31 @@
                 </div>
                 <div class="flex mb-4 items-start">
                   <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
-                  <span class="text-lg font-extrabold">Unlimited requests</span>
+                  <span class="text-lg font-extrabold">Your own project pipeline.</span>
                 </div>
                 <div class="flex mb-4 items-start">
                   <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
-                  <span class="text-lg font-extrabold">Unlimited iterations</span>
+                  <span class="text-lg font-extrabold">We work with you on your deadlines.</span>
+                </div>
+                <div class="flex mb-4 items-start">
+                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
+                  <span class="text-lg font-extrabold">Straightforward per month price.</span>
+                </div>
+                <div class="flex mb-4 items-start">
+                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
+                  <span class="text-lg font-extrabold">Completed documents are fully yours.</span>
+                </div>
+                <div class="flex mb-4 items-start">
+                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
+                  <span class="text-lg font-extrabold">Unlimited requests.</span>
+                </div>
+                <div class="flex mb-4 items-start">
+                  <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
+                  <span class="text-lg font-extrabold">Unlimited iterations.</span>
                 </div>
                 <div class="flex mb-8 items-start">
                   <img class="block w-6 h-6 mr-2 object-contain" src="nigodo-assets/circle-icon-green.svg" alt="">
-                  <span class="text-lg font-extrabold">Cancel anytime</span>
+                  <span class="text-lg font-extrabold">Cancel anytime.</span>
                 </div>
                 <a class="inline-block w-full py-4 px-6 text-center leading-6 text-lg text-white font-extrabold bg-indigo-800 hover:bg-indigo-900 border-3 border-indigo-900 shadow rounded transition duration-200" href="#">Get Started</a>
               </div>
@@ -261,29 +234,29 @@
         </div>
       </section>
 
-      <section>
-        <div class="pt-26 border-3 border-l-0 border-r-0 border-indigo-900">
-          <div class="pb-16 border-b-3 border-indigo-900">
-            <div class="container px-4 mx-auto text-center">
-              <a class="inline-block mx-auto mb-20" href="#">
-                <img class="h-12" src="nigodo-assets/logo-nigodo.svg" alt="">
-              </a>
-              <div class="flex flex-wrap -mx-4 -mb-6 justify-center">
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Product</a></div>
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Features</a></div>
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Pricing</a></div>
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Resources</a></div>
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Careers</a></div>
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Help</a></div>
-                <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Privacy</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="container px-4 pt-16 pb-24 mx-auto">
-            <p class="text-center text-xl md:text-2xl font-extrabold">© 2022 Nigodo. All rights reserved.</p>
-          </div>
+      <section id="footer">
+  <div class="pt-26 border-3 border-l-0 border-r-0 border-indigo-900">
+    <div class="pb-16 border-b-3 border-indigo-900">
+      <div class="container px-4 mx-auto text-center">
+        <a class="inline-block mx-auto mb-20" href="#">
+          <img class="h-12" src="https://static.shuffle.dev/uploads/files/ad/ad1749bbd3b16bea8416357b6c48df795daa4165/tachifigures-high-resolution-logo-with-text-color.png" alt="">
+        </a>
+        <div class="flex flex-wrap -mx-4 -mb-6 justify-center">
+
+          <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Features</a></div>
+          <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Pricing</a></div>
+          <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Past Work</a></div>
+
+          <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6 md:mr-10 2xl:mr-16"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">FAQs</a></div>
+          <div class="w-full md:w-1/3 xl:w-auto px-4 mb-6"><a class="text-xl md:text-2xl font-extrabold hover:text-indigo-800" href="#">Terms</a></div>
         </div>
-      </section>
+      </div>
+    </div>
+    <div class="container px-4 pt-16 pb-24 mx-auto">
+      <p class="text-center text-xl md:text-2xl font-extrabold">© 2023 TachiFigures. All rights reserved.</p>
+    </div>
+  </div>
+</section>
     </div>
 </body>
 </html>
