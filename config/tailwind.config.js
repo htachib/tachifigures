@@ -18,6 +18,7 @@ module.exports = {
           '700': '#a4411c',
           '500': '#EA9A72'
         },
+        'green': 'rgb(156, 230, 225)',
         'brand-yellow': '#f7eb73',
         'brand-yellow-light': '#fff8af',
         'brand-blue': '#93caf0',
