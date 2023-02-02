@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
+
 
 @layer components {
-  .btn-primary {
+  .border-green-400 {
     @apply py-2 px-4 bg-blue-200;
+  }
+  .bg-green-400	{
+    background-color: rgb(74 222 128);
   }
 }
 
-*/
+
 
 .tooltip {
   @apply invisible absolute;
